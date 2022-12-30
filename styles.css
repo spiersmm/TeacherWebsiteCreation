@@ -1,0 +1,46 @@
+header {
+    background-color: darkblue;
+    text-align: center;
+    padding: 1%;
+    color: rgb(238, 234, 229);
+}
+
+body {
+    margin: 0 auto;
+    background-color: rgb(211, 209, 209);
+}
+
+footer {
+    background-color: darkblue;
+    text-align: center;
+    padding: 1%;
+    color:rgb(238, 234, 229);
+}
+
+.main-screen-grid {
+    display: grid;
+    grid-template-columns: 15% 5% 80%;
+}
+
+.nav-bar-container {
+    background-color: aquamarine;
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 5%;
+}
+
+@media (max-width: 650px) {
+    .projects-grid {
+        grid-template-columns: 100%;
+    }
+    .project-image {
+        width: 60%;
+        height: 60%;
+    }
+}
